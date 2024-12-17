@@ -1,0 +1,23 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: Hotel-Microservice
+  datasource:
+    url:  jdbc:mysql://localhost:3306/hoteldb
+    username: root
+    password: root
+    driver_class: com.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  properties:
+    hibernate:
+      format_sql: true
+      enable_lazy_load_no_trans: true
+
+
+
+
