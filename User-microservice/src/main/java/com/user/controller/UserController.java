@@ -14,7 +14,8 @@ import java.util.List;
 public class UserController {
 
     @Autowired
-    UserService userService;
+    private  UserService userService;
+
 
     //create new user
     @PostMapping("/create")
@@ -24,7 +25,6 @@ public class UserController {
     }
 
     // get user by id
-
     @GetMapping("/{userId}")
     public ResponseEntity<User> getUserById(@PathVariable String userId){
         User user = userService.getUserById(userId);

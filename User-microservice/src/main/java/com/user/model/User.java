@@ -1,5 +1,6 @@
 package com.user.model;
 
+import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -25,6 +26,7 @@ public class User {
     @Column(name = "password")
     private String password;
     @Enumerated(EnumType.STRING)
+    @Nullable()
     private Role role;
     @Transient
     private List<Rating> ratings = new ArrayList<>();

@@ -6,6 +6,10 @@
       <list>
         <option value="$PROJECT_DIR$/User-microservice/pom.xml" />
         <option value="$PROJECT_DIR$/Hotel-Microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/Ratings Microservice/Ratings-Microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/Ratings-Microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/Service-Registry/pom.xml" />
+        <option value="$PROJECT_DIR$/Api-GateWay/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
